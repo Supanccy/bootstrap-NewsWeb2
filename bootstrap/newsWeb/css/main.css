@@ -1,0 +1,158 @@
+
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+/**扩充navbar-brand类，不要在源文件中去改它*/
+.navbar-brand{
+    background: url("../img/logo.png");
+    width: 50px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/**扩充list-group-item类，不要在源文件中去改它*/
+.side-bar .list-group-item{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.side-bar .list-group-item.active{
+    background: #ED4040;
+}
+.side-bar .list-group-item:hover{
+    background: #ED4040;
+    color:#ffffff;
+}
+
+.news-list-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.news-list-item:first-child{
+    padding-top: 0 ;
+}
+
+
+.news-list-item .title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 2;
+    color: black;
+}
+.news-list-item .title:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+
+.news-list-item .info{
+    color: #888;
+}
+
+
+.side-bar-card{
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #F4F5F6;
+}
+.side-bar-card .text-lg{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+
+.flag{
+    padding: 20px 0;
+}
+
+.side-bar-card{
+    border-top: 2px solid #ED4040;
+}
+
+.side-bar-card .card-title,
+.side-bar-card .card-body .list .item{
+    padding: 10px 15px;
+}
+
+.side-bar-card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.side-bar-card .item:hover{
+
+}
+
+
+.side-bar-card .item .item-title:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+
+
+.side-bar-card .item .desc{
+    color: #a9a5a5;
+    text-align: right;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 5px 0px;
+}
+
+.newsTitle{
+    line-height: 1.5;
+
+}
+
+
+.news-status{
+    color: #999999;
+}
+.news-status .label{
+    opacity: 0.5;
+}
+.news-content{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.news-content img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body .list .item .col-xs-5{
+    padding: 0;
+}
+
+
+.footer{
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    color: #999;
+}
+
+#toggle-checkbox:checked ~ div{
+    display: block !important;
+}
+
+#toggle-label{
+    display: inline-block;
+    position: absolute;
+    right: 13px;
+    top:15px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#666666;
+    display: none;
+
+}
+
